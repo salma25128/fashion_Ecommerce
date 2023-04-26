@@ -9,7 +9,7 @@ body{
     /* padding: 1.5rem ; */
     font-family: "poppins";
     overflow-x: hidden;
-   
+   text-transform: capitalize;
 }
 
 
@@ -266,12 +266,16 @@ text-align: justify;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 24px;
+  /* gap: 24px; */
   flex-wrap: wrap;
   /* flex-direction: row; */
   margin: 5.5rem;
  
   
+}
+
+.third-sec>h3{
+  text-align: center;
 }
 
 .img-width{
@@ -345,11 +349,38 @@ font-size: 1.2rem;
 
 }
 
-/* .card-2>img{
+
+
+.fav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  /* margin: 5.5rem; */
+ 
+  
+}
+
+
+.card-2>img{
   width: 40vw;
-} */
+}
 
 /* fifth */
+.fifth-sec{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 24px; */
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  margin: 5.5rem;
+ 
+  
+}
+
 
 .block-2{
   background-image: url(./images/Vector\ 9.png);
@@ -359,6 +390,10 @@ font-size: 1.2rem;
   font-size: 2rem;
   font-weight:1000;
   margin: 2rem 6rem 2rem 4rem;
+}
+
+.app{
+  padding-bottom: 3rem;
 }
 
 .contact{
@@ -372,31 +407,38 @@ font-size: 1.2rem;
 
 .contact h3{
   font-size: 2rem;
+  padding-top: 1rem;
 }
 
 .contact p{
-  padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 .send{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left:9rem ;
 }
 .bar{
   
  border: 0;
  height: 3rem;
- border-radius: 1rem;
- flex:  1;
- /* background-color: #ffffff; */
+ border-radius: 0.5rem;
+width:50% ;
  color:#fff ;
+ font-size: 0.8rem;
+padding: 1.2rem;
+z-index: 1;
+
 }
+
 #contact-button{
-  padding-right: 5rem;
-  /* flex:0.2rem; */
-  border: 0;
-  font-size: 1rem;
+ transform: translate(-160px, 0px);
+ z-index: 4;
+ border: 0 !important;
+  
+  
 }
 .foot{
   display: flex;
@@ -550,7 +592,16 @@ font-size: 1.2rem;
   .mobile-hide{
     display: none;
   }
-
+ .bar{
+  width:100%;
+ }
+ #contact-button{
+  transform: translate(-118px, 0px);
+  z-index: 4;
+  border: 0 !important;
+   
+   
+ }
   .foot{
 
     text-align: center;
